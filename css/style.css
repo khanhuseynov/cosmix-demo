@@ -1,0 +1,240 @@
+
+*{
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 30px;
+}
+
+.slider{
+    min-height: 200px;
+}
+.carusel_slide{
+    height: 600px;
+}
+.navbar_main{
+    position: fixed;
+    z-index: 99999;
+    display: flex;
+    width: 100%;
+    background-color: rgba(26, 26, 26, 0.3);
+    
+}
+.nav_sty{
+    
+    background-color: rgb(169, 169, 169);
+} 
+
+.navbar_ul li a{
+    color: white !important;
+    transition: 0.4s;
+}
+.navbar_ul li a:hover{
+    color: red !important;
+    
+}
+.caption{
+    position: relative;
+    bottom: 370px;
+    left: 50px;
+}
+.caption h3{
+    font-size: 40px;
+    color: white;
+}
+.caption h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+}
+.caption h6{
+    font-size: 20px;
+    color: white;
+} 
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   
+}
+.aboutus h2{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+    font-size: 35px;
+}
+.aboutus h2::after{
+    content: "";
+    height: 2px;
+    width: 119px;
+    display: block;
+    margin: 15px 33px 13px;
+    background-color: red;
+}
+.premium_main{
+    background-color: red;
+    color: white;
+}
+.dwn{
+    border: solid white 2px;
+    background: none;
+    color: white;
+    padding: 7px;
+    transition: 0.5s;
+
+}
+.dwn:hover{
+    background-color: white;
+    color: red;
+
+}
+.caption h6{
+    font-size: 20px;
+    color: white;
+} 
+.ourser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   
+}
+.our h2{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+    font-size: 35px;
+}
+.ourser h2::after{
+    content: "";
+    height: 2px;
+    width: 175px;
+    display: block;
+    margin: 15px 33px 13px;
+    background-color: red;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    display: flex;
+    align-items: center;
+}
+.box1,.box2,.box3,.box4,.box5,.box6 p{
+    font-size: 15px;
+    
+}
+.icon1, .icon2 , .icon3 , .icon4 , .icon5 , .icon6{
+    color: red;
+    border: solid rgb(145, 145, 145) 1px;
+    padding: 20px;
+    border-radius: 50%;
+    transition: transform 0.8s;
+    
+}
+.icon1:hover , .icon2:hover , .icon3:hover, .icon4:hover, .icon5:hover, .icon6:hover{
+    transform: rotateY(360deg);
+    background-color: red;
+    color: white;
+}
+.progres{
+    background-color: red;
+}
+
+/* filter 1 */
+
+
+.allwrps {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+.mImg{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+.single {
+    width: 190px;
+    height: 190px;
+    text-align: center;
+    line-height: 200px;
+    background: red;
+    margin: 0 5px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .3s;     
+}
+.btns {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btns button {
+    padding: 10px 38px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    margin: -1px -5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.btns button:hover,.btns button.active {
+    background: red;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .caption{
+        position: relative;
+        bottom:157px;
+        left: 50px;
+    }
+    .caption h3{
+        font-size: 17px;
+        color: white;
+    }
+    .caption h1{
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+    }
+    .caption h6{
+        font-size: 11px;
+        color: white;
+    }
+    .navbar_main{
+        position: fixed;
+        margin-bottom: 30px ;
+        z-index: 99999;
+        display: flex;
+    }
+    .carusel_slide{
+        height: 262px;
+    }
+}
